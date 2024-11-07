@@ -462,7 +462,7 @@ main.touch .main-wrap {
 }
 
 .footer-wrap.theme-dark .footer{
-   background: var(--color-dark);
+   background: #0b1a48;
 }
 
 .footer-wrap.theme-dark .overlay-gradient {
