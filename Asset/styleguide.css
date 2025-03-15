@@ -3,48 +3,42 @@
 /* ------------------------- Fonts -------------------------------------------------- */
 
 @font-face {
-    font-family: 'Dennis Sans';
-    src: url('../fonts/NeueMontreal-Light.otf') format('opentype');
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-display: auto;
 }
 
 @font-face {
-    font-family: 'Dennis Sans';
-    src: url('../fonts/NeueMontreal-LightItalic.otf') format('opentype');
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-style: italic;
     font-display: auto;
 }
 
 @font-face {
-    font-family: 'Dennis Sans';
-    src: url('../fonts/NeueMontreal-Regular.otf') format('opentype');
+    font-family: "Open Sans", sans-serif;
     font-weight: 450;
     font-style: normal;
     font-display: auto;
 }
 
 @font-face {
-    font-family: 'Dennis Sans';
-    src: url('../fonts/NeueMontreal-Italic.otf') format('opentype');
+    font-family: "Open Sans", sans-serif;
     font-weight: 450;
     font-style: italic;
     font-display: auto;
 }
 
 @font-face {
-    font-family: 'Dennis Sans';
-    src: url('../fonts/NeueMontreal-Bold.otf') format('opentype');
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-style: normal;
     font-display: auto;
 }
 
 @font-face {
-    font-family: 'Dennis Sans';
-    src: url('../fonts/NeueMontreal-BoldItalic.otf') format('opentype');
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-style: italic;
     font-display: auto;
@@ -56,11 +50,11 @@
 
 :root {
 
-    --color-dark: #1C1D20;
-    --color-dark-dark: #141517;
+    --color-dark: #052962;
+    --color-dark-dark: #052962;
     --color-light: #FFFFFF;
-    --color-blue: #455CE9;
-    --color-blue-dark: #334BD3;
+    --color-blue: #ffe500;
+    --color-blue-dark: #eed917;
     --color-gray: #999D9E;
     --color-lightgray: #E9EAEB;
     --color-white: #FFFFFF;
@@ -640,7 +634,7 @@ video.overlay {
 }
 
 .btn-round .btn-text-inner {
-    color: #fff;
+    color: #052962;
 }
 
 .btn-round .btn-fill {

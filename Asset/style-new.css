@@ -462,7 +462,7 @@ main.touch .main-wrap {
 }
 
 .footer-wrap.theme-dark .footer{
-   background: #0b1a48;
+   background: var(--color-dark-dark);
 }
 
 .footer-wrap.theme-dark .overlay-gradient {
@@ -3596,3 +3596,31 @@ main.touch .case-intro-image .btn-wrap {
    margin-right: 0;
 }
 
+
+
+.icon-style {
+   height: 20px;
+    padding: 0px 2px 0px 0px;
+    margin-bottom: 2px;
+}
+
+.earth-icon {
+   animation: rotateImage 5s linear infinite;
+   height: 50px;
+   width: 50px; /* Ensures equal width and height */
+   border-radius: 50%; /* Makes the element round */
+   overflow: hidden; /* Ensures content fits within the circular boundary */
+   object-fit: cover; /* Ensures the image scales proportionally inside the circle */
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* Animation: Moving in a circular path */
+@keyframes rotateImage {
+   0% {
+       transform: rotate(0deg); /* Start at 0 degrees */
+   }
+   100% {
+       transform: rotate(360deg); /* Complete one full rotation */
+   }
+}
